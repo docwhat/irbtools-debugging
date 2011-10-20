@@ -1,0 +1,7 @@
+Welcome to IRB. You are using ruby 1.9.2p290 (2011-07-09 revision 32553) [x86_64-darwin11.0.0]. Have fun ;)
+[0m[0m[0m[0m[0m[0m>> exit
+[30;1m[0m[0m[31;1mCouldn't load the irb library 'boson': TypeError
+* exception class/object expected
+* /Users/docwhat/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+[0m[31;1m
+[0m

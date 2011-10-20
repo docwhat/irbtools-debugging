@@ -3,3 +3,8 @@
 This is just some debugging information for trying to figure out a problem with `irbtools`.
 
 See (issue #17 on irbtools)[https://github.com/janlelis/irbtools/issues/17#issuecomment-2455435] for more info.
+
+# Details about runs...
+
+Runs 0, 1, 2 are run with my default gemset.
+Runs 3+ are run using the Gemfile in a custom gemset.

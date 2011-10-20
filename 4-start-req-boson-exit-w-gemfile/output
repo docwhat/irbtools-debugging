@@ -1,0 +1,4 @@
+Welcome to IRB. You are using ruby 1.9.2p290 (2011-07-09 revision 32553) [x86_64-darwin11.0.0]. Have fun ;)
+[0m[0m[0m[0m[0m[0m>> require 'boson'
+[0m7M[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[34m#=> [0m[32mtrue[0m8[0m[0m[0m[0m[0m[0m>> exit
+[30;1m[0m[0m
