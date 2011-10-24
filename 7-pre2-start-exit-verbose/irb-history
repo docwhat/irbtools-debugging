@@ -1,0 +1,100 @@
+2011 [ 50
+]
+2011 -  50
+"fish".capitalize
+Dir['**/*.js']
+Dir['**/*.js.coffee']
+require 'mocha'
+Date.any_instance.stubs(:today).returns(Date.new(1999,9,9))
+Date.expects(:today).returns(Date.new(2020,1,1))
+Date.today
+Fibre.new {}
+require 'rb-fsevent'
+require 'haml'
+require 'src/lib/iated/sys_pref'
+require 'src/lib/iated/sys_pref.rb'
+require 'src/lib/iated.rb'
+require 'iated'
+require 'iated/sys_prefs'
+$: << 'src/lib'
+require 'iated/sys_pref'
+s = SysPref.new
+s.methods
+s.public_methods
+s.public_methods true
+s.singleton_methods
+s.methods.filter {|x| x.to_s =~ /method$/}
+s.methods.select {|x| x.to_s =~ /method$/}
+s.methods.select {|x| x.to_s =~ /.*method$/}
+s.methods.select {|x| x.to_s =~ /.*methods$/}
+s.methods.select {|x| x.to_s =~ /.*methods?$/}
+s.methods.select {|x| x.to_s =~ /method/}
+s.methods false
+s.methods true
+s.methods.select {|x| x.to_s =~ /=$/}
+s.methods.select {|x| x.to_s =~ /[a-z]=$/}
+puts RUBY_ENGINE
+RUBY_PLATFORM
+printf "%c" % 101
+printf "%c", 101
+printf "%c\n", 101
+User.first
+a = User.all
+a[1]
+b = a[1]
+b.confirmed_at = Date.now
+b.confirmed_at = DateTime.now
+b
+b.save!
+Fiber.new {}.resume
+require 'rainbow'
+puts "narf".color :blue
+puts "narf".color(:red)
+require 'csv'
+a = [1,2,3,4]
+a
+a.shift
+require 'rails/all'
+require 'rspec-rails'
+require 'rspec/rails'
+RSpec::Rails::ViewAssigns
+foo = "3"
+foo.to_f
+Time.new
+Time.new.to_i
+Time.at(Time.new.to_i)
+Dir.pwd
+require 'growl'
+include Growl
+notify_ok "hi"
+notify_error "hi"
+60 /8
+7 * 8
+$: << 'lib'
+require 'apotomo/wiget/javascript_methods'
+require 'apotomo/widget/javascript_methods'
+Apotomo::JavascriptMethods.instance_method
+Apotomo::JavascriptMethods.instance_methods
+class Foo
+include Apotomo::JavascriptMethods
+end
+Foo.instance_method
+Foo.instance_methods
+Foo.instance_methods.sort
+a = Foo.new
+a.methods.sort
+Wirb.schema
+Wirb.schema[:regexp]
+puts /fish/
+270 / 30
+require 'hirb' 'boson'
+require 'hirb'
+require 'boson'
+true.try(:barf)
+sleep 1
+unlink
+File.unlink
+File.unlink -h
+File.exist? "fish"
+require 'fileutils'
+exit
