@@ -1,0 +1,14 @@
+Welcome to IRB. You are using ruby 1.9.2p290 (2011-07-09 revision 32553) [x86_64-darwin11.0.0]. Have fun ;)
+[0m[0m[0m[0m[0m[0m>> exit
+[30;1m[0m[0m[31;1mCouldn't load the irb library 'hirb': TypeError
+* exception class/object expected
+* /Users/docwhat/.rvm/gems/ruby-1.9.2-p290@irbtools-debug/gems/hirb-0.5.0/lib/hirb.rb:11:in `require'
+/Users/docwhat/.rvm/gems/ruby-1.9.2-p290@irbtools-debug/gems/hirb-0.5.0/lib/hirb.rb:11:in `<top (required)>'
+/Users/docwhat/.rvm/gems/ruby-1.9.2-p290@irbtools-debug/gems/irbtools-1.1.0.pre/lib/irbtools.rb:29:in `require'
+/Users/docwhat/.rvm/gems/ruby-1.9.2-p290@irbtools-debug/gems/irbtools-1.1.0.pre/lib/irbtools.rb:29:in `block (2 levels) in <top (required)>'
+/Users/docwhat/.rvm/gems/ruby-1.9.2-p290@irbtools-debug/gems/irbtools-1.1.0.pre/lib/irbtools.rb:27:in `each'
+/Users/docwhat/.rvm/gems/ruby-1.9.2-p290@irbtools-debug/gems/irbtools-1.1.0.pre/lib/irbtools.rb:27:in `block in <top (required)>'
+/Users/docwhat/.rvm/gems/ruby-1.9.2-p290@irbtools-debug/gems/irbtools-1.1.0.pre/lib/irbtools.rb:117:in `[]'
+/Users/docwhat/.rvm/gems/ruby-1.9.2-p290@irbtools-debug/gems/irbtools-1.1.0.pre/lib/irbtools.rb:117:in `block (2 levels) in <top (required)>'
+[0m[31;1m
+[0m

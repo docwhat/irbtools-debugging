@@ -10,7 +10,7 @@ require 'irbtools'
 TOKEN
 
 mkdir -p "$1"
-irb 2>&1 | tee "$1"/output
+bundle exec irb 2>&1 | tee "$1"/output
 cp -avr ~/.irb* "$1"/
 (cd "$1" && rename 's/^\.//' .*)
 
